@@ -7,8 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 user1 = User.create(username: "username1")
+user2 = User.create(username: "username2")
+user3 = User.create(username: "username3")
+user4 = User.create(username: "username4")
 
-deck1 = Deck.create(description: "description1", user_id: 1)
+deck1 = Deck.create(description: "deck description1", user_id: 1)
+deck2 = Deck.create(description: "deck description2", user_id: 1)
+deck3 = Deck.create(description: "deck description3", user_id: 2)
+deck4 = Deck.create(description: "deck description4", user_id: 3)
+deck5 = Deck.create(description: "deck description5", user_id: 4)
 
 card1 = Card.create(description: "card description 1", imgsrc: "imgsrc1", deck_id: 1)
 card2 = Card.create(description: "card description 2", imgsrc: "imgsrc2", deck_id: 1)
