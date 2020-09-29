@@ -19,6 +19,6 @@ card6 = Card.create(description: "card description 6", imgsrc: "imgsrc6", deck_i
 card7 = Card.create(description: "card description 7", imgsrc: "imgsrc7", deck_id: 1)
 card8 = Card.create(description: "card description 8", imgsrc: "imgsrc8", deck_id: 1)
 card9 = Card.create(description: "card description 9", imgsrc: "imgsrc9", deck_id: 1)
-card10 = Card.create(description: "card description 10", imgsrc: "imgsrc10", deck_id: 1)
+
 
 puts 'seeds done'
