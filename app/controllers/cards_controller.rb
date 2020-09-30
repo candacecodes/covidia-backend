@@ -13,7 +13,6 @@ class CardsController < ApplicationController
     def create 
         card = Card.new(card_params) 
         card.save 
-        byebug 
         render json: card 
     end 
 
