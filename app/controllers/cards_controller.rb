@@ -24,7 +24,7 @@ class CardsController < ApplicationController
 
     def destroy 
         card = Card.find_by_id(params[:id])
-        appointment.delete 
+        card.delete 
         render json: card 
     end 
 
